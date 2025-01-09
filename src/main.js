@@ -21,8 +21,8 @@ loadSong(songs[songIndex]);
 // 曲の詳細を更新
 function loadSong(song) {
   title.innerHTML = song;
-  audio.src = `music/${song}.wav`;
-  cover.src = `images/${song}.${song === "Aoge-ba-Totoshi" ? "jpg" : "png"}`;
+  audio.src = `/music/${song}.wav`;
+  cover.src = `/images/${song}.${song === "Aoge-ba-Totoshi" ? "jpg" : "png"}`;
 }
 
 // 曲を再生
